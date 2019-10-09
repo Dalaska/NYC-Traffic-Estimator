@@ -1,0 +1,14 @@
+#!/bin/bash 
+#
+#PBS -N seeresult 
+#PBS -M daruiz@clemson.edu 
+#PBS -m e
+#PBS -l select=1:ncpus=1:mem=5gb
+#PBS -l walltime=16:00:00
+
+source /etc/profile
+module add matlab/2012a
+cd ${PBS_O_WORKDIR}
+echo $PBS_O_WORKDIR
+matlab -nodisplay -r seeresult >seresults.txt
+
