@@ -1,4 +1,3 @@
-%mainProcess2
 clc
 clear
 addpath('scr');
