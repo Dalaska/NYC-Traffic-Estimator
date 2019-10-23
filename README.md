@@ -7,7 +7,7 @@ Use the taxi data  to generate driving speed of different road segments at diffe
 ![urban_traffic](/img/urban_traffic.gif)
 
 
-## tasks: 
+## Tasks: 
 
 - Generate estimated routes from GPS positions. 
 
