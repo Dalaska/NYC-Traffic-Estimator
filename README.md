@@ -6,25 +6,29 @@ Use the taxi data  to generate driving speed of different road segments at diffe
 
 ![urban_traffic](/img/urban_traffic.gif)
 
-![system_archetecture](/img/archt.png)
-
- *System archetecture*
 
 ## tasks: 
 
 - Generate estimated routes from GPS positions. 
 
-![plot_route](/img/plot_route.bmp)
- *Create route from taxi Orgin-destination data*
-
-![gis](/img/gis.png)
- *GIS data structure*
-
 - Set up acceptance criteria 
 
 - Process large amount of data 
 
-![taxidata](/img/taxidata.png)
- *taxi Orgin-destination data data structure*
-
 - Data visulization
+
+![system_archetecture](/img/archt.png)
+
+ *System archetecture*
+ 
+![plot_route](/img/plot_route.bmp)
+
+ *Create route from taxi Orgin-destination data*
+  
+![gis](/img/gis.png)
+
+ *GIS data structure*
+ 
+ ![taxidata](/img/taxidata.png)
+ 
+ *taxi Orgin-destination data data structure*
